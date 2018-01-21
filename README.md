@@ -18,8 +18,8 @@ flex-wrap:nowrap;
 
 .box {
 flex:1 0 auto;
-min-width:100px !important;
-max-width:200px !important;
+min-width:100px;
+max-width:200px;
 }
 
 HTML :
