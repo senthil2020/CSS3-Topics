@@ -3,7 +3,7 @@ CSS3-Topics
 1. Flex Box,
 
 
-1. Flex Box :
+Flex Box :
 
 Example : (Single Row with dynamic width)
 
@@ -11,7 +11,9 @@ CSS :
 -------
 .container {
 display:flex;
-flex-flow:row nowrap;
+flex-direction:row;
+flex-wrap:nowrap;
+//flex-flow:row nowrap;
 }
 
 .box {
